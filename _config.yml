@@ -15,14 +15,14 @@
 minimal_mistakes_skin    : "neon"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko"
 title                    : "enthusiastic"
 title_separator          : "-"
 name                     : "myounghoon Jung"
 description              : "An enthusiastic blog"
 url                      : "https://myounghoonjung.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "myounghoonJung.github.io"
+repository               : "myounghoonJung/myounghoonJung.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 
 # breadcrumbs            : false # true, false (default)
@@ -34,7 +34,8 @@ comments:
   discourse:
 ​    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
-​    # https://developers.facebook.com/docs/plugins/comments
+
+    # https://developers.facebook.com/docs/plugins/comments
 ​    appid                :
 ​    num_posts            : # 5 (default)
 ​    colorscheme          : # "light" (default), "dark"
@@ -59,7 +60,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
+search                   : true
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -70,6 +71,7 @@ algolia:
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -101,30 +103,37 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Myounghoon Jung"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  location         : "Seoul, Korea"
+  email            : "mh.jung.dev@gmail.com"
   links:
-​    - label: "Email"
-​      icon: "fas fa-fw fa-envelope-square"
-​      # url: mailto:your.name@email.com
-​    - label: "Website"
-​      icon: "fas fa-fw fa-link"
-​      # url: "https://your-website.com"
-​    - label: "Twitter"
-​      icon: "fab fa-fw fa-twitter-square"
-​      # url: "https://twitter.com/"
-​    - label: "Facebook"
-​      icon: "fab fa-fw fa-facebook-square"
-​      # url: "https://facebook.com/"
-​    - label: "GitHub"
-​      icon: "fab fa-fw fa-github"
-​      # url: "https://github.com/"
-​    - label: "Instagram"
-​      icon: "fab fa-fw fa-instagram"
-​      # url: "https://instagram.com/"
+
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+
+      # url: mailto:your.name@email.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+
+      # url: "https://your-website.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+
+      # url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+
+      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
