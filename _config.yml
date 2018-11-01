@@ -15,30 +15,28 @@
 minimal_mistakes_skin    : "neon"
 
 # Site Settings
-locale                   : "ko"
-title                    : "enthusiastic"
+locale                   : "ko-KR"
+title                    : "enthusiastically"
 title_separator          : "-"
-name                     : "myounghoon Jung"
-description              : "An enthusiastic blog"
+name                     : "Myounghoon Jung"
+description              : "An enthusiastic blog."
 url                      : "https://myounghoonjung.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "myounghoonJung/myounghoonJung.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
-​    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
-​    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
-
     # https://developers.facebook.com/docs/plugins/comments
-​    appid                :
-​    num_posts            : # 5 (default)
-​    colorscheme          : # "light" (default), "dark"
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : # "master"
@@ -49,12 +47,12 @@ staticman:
   path                   : # "/_data/comments/{options.slug}" (default)
   requiredFields         : # ['name', 'email', 'message']
   transforms:
-​    email                : # "md5"
+    email                : # "md5"
   generatedFields:
-​    date:
-​      type               : # "date"
-​      options:
-​        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+    date:
+      type               : # "date"
+      options:
+        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 reCaptcha:
   siteKey                :
   secret                 :
@@ -71,7 +69,6 @@ algolia:
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
-
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -97,65 +94,59 @@ social:
 analytics:
   provider               : false # false (default), "google", "google-universal", "custom"
   google:
-​    tracking_id          :
-​    anonymize_ip         : # true, false (default)
+    tracking_id          :
+    anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
   name             : "Myounghoon Jung"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "since summer 2018"
   location         : "Seoul, Korea"
   email            : "mh.jung.dev@gmail.com"
+  github	   : "myounghoonJung"
   links:
-
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-
       # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-
       # url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
-​    - label: "Twitter"
-​      icon: "fab fa-fw fa-twitter-square"
-​      # url:
-​    - label: "Facebook"
-​      icon: "fab fa-fw fa-facebook-square"
-​      # url:
-​    - label: "GitHub"
-​      icon: "fab fa-fw fa-github"
-​      # url:
-​    - label: "GitLab"
-​      icon: "fab fa-fw fa-gitlab"
-​      # url:
-​    - label: "Bitbucket"
-​      icon: "fab fa-fw fa-bitbucket"
-​      # url:
-​    - label: "Instagram"
-​      icon: "fab fa-fw fa-instagram"
-​      # url:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url:
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      # url:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url:
 
 
 # Reading Files
@@ -279,7 +270,7 @@ tag_archive:
 compress_html:
   clippings: all
   ignore:
-​    envs: development
+    envs: development
 
 
 # Defaults
@@ -288,7 +279,6 @@ defaults:
   - scope:
       path: ""
       type: posts
-
     values:
       layout: single
       author_profile: true
