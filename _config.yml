@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "enthusiastically"
+title                    : "the inspired"
 title_separator          : "-"
 name                     : "Myounghoon Jung"
 description              : "An enthusiastic blog."
@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Myounghoon Jung"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "developer life since summer 2018"
+  bio              : "new life as a developer since summer 2018"
   location         : "Seoul, Korea"
   email            : "mh.jung.dev@gmail.com"
   github	   : "myounghoonJung"
